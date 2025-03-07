@@ -98,7 +98,7 @@ const Home = () => {
       {/* Menu & Order Modal */}
       {isMenuModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
-          <div className="bg-slate-950 rounded-lg w-[90%] max-w-3xl p-6 relative">
+          <div className="bg-slate-950 rounded-lg w-[90%] max-w-xl p-6 relative">
             {/* Close Button */}
             <button
               className="absolute top-4 right-4 text-gray-400 hover:text-gray-500"
@@ -108,18 +108,18 @@ const Home = () => {
             </button>
 
             {/* Modal Content */}
-            <h3 className="text-xl font-bold mb-6 text-white text-center">View Menu</h3>
+            <h3 className="text-md font-bold mb-2 text-white text-center">View Menu</h3>
 
             {/* 3-Grid Section */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+            <div className="grid grid-cols-3 md:grid-cols-3 gap-4 mb-6">
               {/* Starter */}
               <div className="text-center">
                 <img
                   src="https://cdn.pixabay.com/photo/2020/10/01/22/39/gourmet-5619887_1280.jpg"
                   alt="Starter"
-                  className="w-full h-32 object-cover rounded-lg shadow-md"
+                  className="w-full h-20 object-cover rounded-lg shadow-md"
                 />
-                <h4 className="mt-2 text-lg text-white font-semibold">Starter</h4>
+                <h4 className="mt-2 text-md text-white font-semibold">Starter</h4>
               </div>
 
               {/* Main Course */}
@@ -127,9 +127,9 @@ const Home = () => {
                 <img
                   src="https://cdn.pixabay.com/photo/2021/05/31/01/10/fried-rice-6297407_1280.jpg"
                   alt="Main Course"
-                  className="w-full h-32 object-cover rounded-lg shadow-md"
+                  className="w-full h-20 object-cover rounded-lg shadow-md"
                 />
-                <h4 className="mt-2 text-lg text-white font-semibold">Main Course</h4>
+                <h4 className="mt-2 text-md text-white font-semibold">Main Course</h4>
               </div>
 
               {/* Desserts */}
@@ -137,40 +137,12 @@ const Home = () => {
                 <img
                   src="https://images.pexels.com/photos/918327/pexels-photo-918327.jpeg?auto=compress&cs=tinysrgb&w=600"
                   alt="Desserts"
-                  className="w-full h-32 object-cover rounded-lg shadow-md"
+                  className="w-full h-20 object-cover rounded-lg shadow-md"
                 />
-                <h4 className="mt-2 text-lg text-white font-semibold">Desserts</h4>
+                <h4 className="mt-2 text-md text-white font-semibold">Desserts</h4>
               </div>
 
-              {/* Drinks */}
-              <div className="text-center">
-                <img
-                  src="https://cdn.pixabay.com/photo/2022/01/19/18/15/cocktail-drinks-6950673_1280.jpg"
-                  alt="Drinks"
-                  className="w-full h-32 object-cover rounded-lg shadow-md"
-                />
-                <h4 className="mt-2 text-lg text-white font-semibold">Drinks</h4>
-              </div>
-
-              {/* Toppings */}
-              <div className="text-center">
-                <img
-                  src="https://cdn.pixabay.com/photo/2015/10/05/18/15/pizza-973075_1280.jpg"
-                  alt="Drinks"
-                  className="w-full h-32 object-cover rounded-lg shadow-md"
-                />
-                <h4 className="mt-2 text-lg text-white font-semibold">Toppings</h4>
-              </div>
-
-              {/* Table hote meal package */}
-              <div className="text-center">
-                <img
-                  src="https://cdn.pixabay.com/photo/2021/01/01/21/12/shrimp-5880020_1280.jpg"
-                  alt="Drinks"
-                  className="w-full h-32 object-cover rounded-lg shadow-md"
-                />
-                <h4 className="mt-2 text-lg text-white font-semibold">Table d'Hote Menu</h4>
-              </div>
+              
             </div>
 
 
@@ -377,7 +349,7 @@ const Home = () => {
         {/* Right Grid */}
         <div className="flex flex-col justify-center text-center px-4 md:px-12">
           {/* Quotation Icon */}
-          <h1 className="text-5xl font-bold text-white mb-4">📳</h1>
+          <h1 className="text-5xl font-bold text-white mb-4 mt-5">📳</h1>
           {/* Description */}
           <p className="text-lg text-white mb-4">
             30% off on our Valentines day menu. Book now and get a complimentary dessert. Don't miss out on this amazing opportunity. Visit any of our locations near you!
