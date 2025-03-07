@@ -57,7 +57,7 @@ const Home = () => {
         <video
           ref={videoRef}
           className="w-full h-full object-cover"
-          src="https://cdn.pixabay.com/video/2023/08/02/174220-851138142_large.mp4"
+          src="https://cdn.pixabay.com/video/2015/10/27/1192-143842659_large.mp4"
           type="video/mp4"
           muted
           loop
